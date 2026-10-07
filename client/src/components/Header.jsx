@@ -10,8 +10,8 @@ export default function Header() {
 
   return (
     <nav
-      className="bg-blue-500 flex flex-wrap text-white justify-between sm:mx-20 p-3 sm:rounded-2xl 
-    text-xl shadow-lg/40 shadow-black font-medium sm:my-3 items-center "
+      className="bg-blue-500 flex flex-wrap sm:flex-nowrap text-white justify-between lg:mx-20 p-3 md:rounded-2xl 
+    text-xl shadow-lg/40 shadow-black font-medium md:my-3 items-center fixed top-0.5 lg:top-5 right-0 left-0 "
     >
       <div className="flex gap-20 ">
         <Link to="/">Kharidlo</Link>
@@ -33,7 +33,7 @@ export default function Header() {
         onClick={() => {
           setMobileMenuOpen(!mobileMenuOpen);
         }}
-        className="sm:hidden text-2xl"
+        className="sm:hidden cursor-pointer text-2xl hover:bg-blue-950"
       >
       =
       </div>
