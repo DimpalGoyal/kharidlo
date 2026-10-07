@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <nav
       className="bg-blue-500 flex flex-wrap text-white justify-between sm:mx-20 p-3 sm:rounded-2xl 
-    text-xl shadow-lg/30 shadow-black font-medium sm:my-3 items-center "
+    text-xl shadow-lg/40 shadow-black font-medium sm:my-3 items-center "
     >
       <div className="flex gap-20 ">
         <Link to="/">Kharidlo</Link>
