@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Outlet } from "react-router-dom";
 import { HomeScreen } from "./screens/HomeScreen";
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <Header />
-        <HomeScreen />
-      </BrowserRouter>
+      <Header/>
+      <main>
+        <Outlet/>
+      </main>
     </>
   );
 }
